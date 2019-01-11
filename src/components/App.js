@@ -6,10 +6,10 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Identicon size={5} username="farghoooo98" />
-        <Identicon size={5} username="yoonga" />
-        <Identicon size={5} username="yogaGirl27" />
-        <Identicon size={5} username="balong" />
+        <Identicon size={5} username="lilpump" />
+        <Identicon size={5} username="username40" />
+        <Identicon size={5} username="yogaGirl2" />
+        <Identicon size={5} username="yoooo" />
       </div>
     );
   }
