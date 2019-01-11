@@ -51,9 +51,7 @@ class App extends Component {
             and turns pixels on or off depending on even or odd values. These
             generated patterns, combined with hash-determined color values,
             ensures a huge number of unique Identicons." -{" "}
-            <a href="https://blog.github.com/2013-08-14-identicons/">
-              Github blog
-            </a>
+            <a href="https://blog.github.com/2013-08-14-identicons/">Github</a>
           </p>
           <div className="github">
             <a href="https://github.com/beneisnr/identicon">
