@@ -1,0 +1,33 @@
+.container {
+  margin-left: 40%;
+  margin-top: 5%;
+}
+
+.row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.pixelOn {
+  float: left;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
+
+.pixelOff {
+  background: #f0f0f0;
+  float: left;
+  line-height: 34px;
+  height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 34px;
+}
