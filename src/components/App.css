@@ -1,32 +1,63 @@
-.App {
+.app {
   text-align: center;
+  color: #24292e;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.header {
+  max-width: 450px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  border: 1px solid #d1d5da;
+  background-color: #ffffff;
+  border-radius: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  color: #272e33;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header p {
+  font-size: 11px;
 }
 
-.App-link {
-  color: #61dafb;
+.github {
+  margin-top: 3px;
+  text-align: left;
+  margin-left: 2px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+form {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+input[type="text"] {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  box-shadow: inset 0 1px 2px rgba(27, 31, 35, 0.075);
+  color: #24292e;
+  line-height: 20px;
+  min-height: 34px;
+  outline-color: #c3daf5;
+  outline-width: 8px;
+  padding: 6px 8px;
+  font-size: 16px;
+  width: 454px;
+}
+
+input[type="text"]:focus {
+  border: 1px solid #2392ff;
+}
+
+input[type="text"]::placeholder {
+  color: #bbbfc3;
+}
+
+input[type="submit"] {
+  visibility: hidden;
+  position: fixed;
 }
