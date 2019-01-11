@@ -1,3 +1,9 @@
+# Identicon
+
+"Our Identicons are simple 5x5 “pixel” sprites that are generated using a hash of the user’s ID. The algorithm walks through the hash and turns pixels on or off depending on even or odd values. These generated patterns, combined with hash-determined color values, ensures a huge number of unique Identicons." 
+	- https://blog.github.com/2013-08-14-identicons/
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
