@@ -46,7 +46,7 @@ class App extends Component {
           </h1>
           <Identicon username={(Math.random() * 10000).toString()} />
           <p>
-            &quot;Our Identicons are simple 5x5 &apos;pixel&apos; sprites that
+            &quot;Our Identicons are simple 5 x 5 &apos;pixel&apos; sprites that
             are generated using a hash of the user&apos;s ID. The algorithm
             walks through the hash and turns pixels on or off depending on even
             or odd values. These generated patterns, combined with
